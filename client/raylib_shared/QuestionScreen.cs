@@ -42,7 +42,7 @@ public class QuestionScreen(RiskujRaylib riskuj) : IScreen
         size = new Vector2(200, 40);
         answerButton = new()
         {
-            rectangle = new Rectangle(screenSize.X / 2 - size.X / 2, screenSize.Y / 2 - size.Y / 2, size),
+            rectangle = new Rectangle(0, screenSize.Y - size.Y, size),
             color = Color.Green,
             text = "Answer",
             onPressed = () => answerVisible = true,
