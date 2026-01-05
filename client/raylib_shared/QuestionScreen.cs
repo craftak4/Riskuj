@@ -19,7 +19,6 @@ public class QuestionScreen(RiskujRaylib riskuj) : IScreen
         if (!answerVisible) answerButton.Draw();
         questionBox.Draw();
         if (answerVisible) answer.Draw();
-        Console.WriteLine(answerVisible);
     }
 
     public void Init()

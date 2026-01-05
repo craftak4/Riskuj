@@ -50,7 +50,6 @@ public class MainScreen(RiskujRaylib riskuj) : IScreen
         {
             foreach (string qfield in riskuj.questions.Fields)
             {
-                Console.WriteLine($"{points} {qfield}");
                 if (!riskuj.questions.GetQuestion(qfield,points)!.answered)
                 buttons.Add(new Button()
                 {

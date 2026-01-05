@@ -1,4 +1,3 @@
-using System.Numerics;
 using Raylib_cs;
 using static Raylib_cs.Raylib;
 namespace Riskuj.RaylibShared;
@@ -16,8 +15,10 @@ public class RiskujRaylib : Core.Riskuj
     public IScreen current_screen;
     public void Run()
     {
+#if !DEBUG
+        SetTraceLogLevel(TraceLogLevel.Error | TraceLogLevel.Fatal);
+#endif
         InitWindow(1920, 1080, "Riskuj - Vít Kadlec");
-        //SetTraceLogLevel(TraceLogLevel.Error | TraceLogLevel.Fatal);
         SetWindowState(ConfigFlags.ResizableWindow);
         MaximizeWindow();
 
