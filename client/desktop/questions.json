@@ -58,5 +58,94 @@
         "points": 400
       }
     ]
+  },
+  {
+    "field": "Zemepis",
+    "questions": [
+      {
+        "question": "Vyjmenuj 5 svetovych nabozenstvi.",
+        "answer": "krestanstvi, islam, judaismus, buddhismus, hinduismus",
+        "points": 300
+      },
+      {
+        "question": "Vysvetli pojem asimilace",
+        "answer": "prizpusobeni dle prostredi",
+        "points": 200
+      },
+      {
+        "question": "Co je to ubranizace?",
+        "answer": "stehovani do vetsich mest",
+        "points": 100
+      },
+      {
+        "question": "Zlata cihla :D",
+        "points": 400
+      },
+      {
+        "question": "Co je to aglomerace?",
+        "answer": "okoli velkeho mesta",
+        "points": 500
+      }
+    ]
+  },
+  {
+    "field": "HV",
+    "questions": [
+      {
+        "question": "S kym Joseph Haydn tvori \"velkou trojku?\"",
+        "answer": "s Beethovenem a Mozartem",
+        "points": 300
+      },
+      {
+        "question": "Co je to variace?",
+        "answer": "hudebni instrumentalni forma - na pocatku zazni tema, pote variace s cisly",
+        "points": 200
+      },
+      {
+        "question": "O co se snazila barokni hudba?",
+        "answer": "pusobit na city, vyvolat vzruseni, ohromit cloveka",
+        "points": 500
+      },
+      {
+        "question": "Jake je nejznamejsi dilo Antonia Vivaldiho?",
+        "answer": "Ctvero rocnich obdobi",
+        "points": 100
+      },
+      {
+        "question": "Na jaky nastroj Johan Sebastian Bach hral nejvice?",
+        "answer": "varhany",
+        "points": 400
+      }
+    ]
+  },
+  {
+    "field": "Biologie",
+    "questions": [
+      {
+        "question": "Co je to hypocentrum?",
+        "answer": "Hypocentrum je bod kde je zemetreseni vyvolano.",
+        "points": 300
+      },
+      {
+        "question": "Jak se nazyva cast s magmatem dole v sopce?",
+        "answer": "magmaticky krb",
+        "points": 200
+      },
+      {
+        "question": "Co vsechno vychazi ze sopky?",
+        "answer": "lava, popel, oxid uhlicity, para vody, sirovodik",
+        "points": 500
+      },
+      {
+        "question": "Jak vznika zemetreseni?",
+        "answer": "pohybem litosferickych desek",
+        "points": 100
+      },
+      {
+        "question": "Jake zarizeni zaznamenava otresy zeme?",
+        "answer": "seismograf",
+        "points": 400
+      }
+    ]
   }
 ]

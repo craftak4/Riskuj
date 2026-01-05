@@ -41,7 +41,7 @@ public class MainScreen(RiskujRaylib riskuj) : IScreen
         int columns = riskuj.questions.Fields.Count();
         int rows = riskuj.questions.Points.Count();
         Vector2 screenSize = new Vector2(GetScreenWidth(), GetScreenHeight());
-        Vector2 size = screenSize / 5;
+        Vector2 size = screenSize / 2;
         Vector2 offset = screenSize / 2 - size / 2;
         Vector2 element_size = new Vector2(size.X / columns, size.Y / rows);
         offset.Y += element_size.Y;
