@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/client/" />
+  <Folder Name="/client/desktop/">
+    <Project Path="client/desktop/Riskuj.Desktop.csproj" />
+  </Folder>
+  <Folder Name="/client/raylib_shared/">
+    <Project Path="client/raylib_shared/Riskuj.RaylibShared.csproj" />
+  </Folder>
+  <Folder Name="/core/">
+    <Project Path="core/Riskuj.Core.csproj" />
+  </Folder>
+</Solution>

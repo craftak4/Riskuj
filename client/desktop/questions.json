@@ -1,0 +1,62 @@
+[
+  {
+    "field": "Dejepis",
+    "questions": [
+      {
+        "question": "Kdy vzniklo Ceskoslovensko?",
+        "answer": "28. rijna 1918",
+        "points": 200
+      },
+      {
+        "question": "Jak se nazyva dohoda o predani pohranicnich oblasti Nemecku?",
+        "answer": "Mnichovská dohoda",
+        "points": 100
+      },
+      {
+        "question": "Co vzniklo po druhe republice?",
+        "answer": "Protektorat Cechy a Morava",
+        "points": 500
+      },
+      {
+        "question": "Co byly Freikorps?",
+        "answer": "dobrovolna, polovojenska organizace Nemcu v CSR",
+        "points": 300
+      },
+      {
+        "question": "Co byla Cesta k Mnichovu?",
+        "answer": "schuzka A. Hitlera a N. Chamberlaina",
+        "points": 400
+      }
+    ]
+  },
+  {
+    "field": "Fyzika",
+    "questions": [
+      {
+        "question": "Jak se vypocita prace?",
+        "answer": "W = F * s",
+        "points": 100
+      },
+      {
+        "question": "Jake jsou druhy vodivosti?",
+        "answer": "derova a elektronova",
+        "points": 500
+      },
+      {
+        "question": "Jaky je rozdil mezi kmitanim a vlnenim?",
+        "answer": "Vlneni se pohybuje v prostoru, kdezto kmitani je v 1 bode.",
+        "points": 300
+      },
+      {
+        "question": "Jak se znaci a jake jednotky ma proud?",
+        "answer": "Znaci se I a jednotkou je A.",
+        "points": 200
+      },
+      {
+        "question": "Jak se nazyva generator stridaveho proudu?",
+        "answer": "alternator",
+        "points": 400
+      }
+    ]
+  }
+]
