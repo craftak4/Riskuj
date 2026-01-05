@@ -56,7 +56,7 @@ public class MainScreen(RiskujRaylib riskuj) : IScreen
                     rectangle = new Rectangle(offset.X + element_size.X * index.X, offset.Y + element_size.Y * index.Y, element_size),
                     color = Color.White,
                     text = $"{points}",
-                    onPressed = () => { riskuj.questionScreen.question = riskuj.questions.GetQuestion(qfield,points) ?? throw new Exception("No such question..."); riskuj.current_screen = riskuj.questionScreen; riskuj.current_screen.Init(); riskuj.questionScreen.answerVisible = false; },
+                    onPressed = () => { riskuj.questionScreen.question = riskuj.questions.GetQuestion(qfield,points) ?? throw new Exception("No such question..."); riskuj.current_screen = riskuj.questionScreen; riskuj.current_screen.Init(); riskuj.teamOverlay.Init(); riskuj.questionScreen.answerVisible = false; },
                 });
                 index.X ++;
             }

@@ -1,16 +1,16 @@
 namespace Riskuj.Core;
 
 public class Riskuj {
-	public Riskuj(string questionPath, params IEnumerable<Team> teams)
+	public Riskuj(string questionPath, params Team[] teams)
 	{
 		questions = QuestionSystem.FromJson(questionPath);
 		this.teams = teams;
 	}
-	public IEnumerable<Team> teams;
+	public Team[] teams;
 	public QuestionSystem questions;
 }
 
-public struct Team(string name, int initialPoints = 0) {
-	string name = name;
-	int points = initialPoints;
+public class Team(string name, int initialPoints = 0) {
+	public string name = name;
+	public int points = initialPoints;
 }

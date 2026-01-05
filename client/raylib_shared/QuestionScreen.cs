@@ -36,6 +36,7 @@ public class QuestionScreen(RiskujRaylib riskuj) : IScreen
                 question.answered = true;
                 riskuj.current_screen = riskuj.mainScreen;
                 riskuj.current_screen.Init();
+                riskuj.teamOverlay.Init();
             }
         };
         size = new Vector2(200, 40);
